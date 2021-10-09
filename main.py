@@ -78,3 +78,4 @@ while True:
         sleep(config["finder"]["search_frequency"] * 60)
     except KeyboardInterrupt:
         sendMobilePush("Listener stopped!", "Listener was manually stopped through the console")
+        exit()

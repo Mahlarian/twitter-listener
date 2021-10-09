@@ -1,0 +1,26 @@
+{
+    "key": "YOUR_KEY_HERE",
+    "secret": "YOUR_SECRET_HERE",
+    "bearer": "YOUR_BEARER_HERE",
+    "access": {
+        "token": "YOUR_CLIENT_TOKEN_HERE",
+        "secret": "YOUR_CLIENT_SECRET_HERE"
+    },
+    "finder": {
+        "search_frequency": 10,
+        "user_handle": "valvesoftware",
+        "ignore_replies": false,
+        "search_count": 20,
+        "keyword": "half life 3",
+        "ignore_past_tweets": false,
+        "initial_scan_count": 50,
+        "memory": 50
+    },
+    "sender": {
+        "push_bullet_token": "YOUR_PUSHBULLET_TOKEN_HERE",
+        "title": "Result found",
+        "body": "Did valve just say half life 3??",
+        "msg_on_error": true,
+        "msg_on_startup": true
+    }
+}
